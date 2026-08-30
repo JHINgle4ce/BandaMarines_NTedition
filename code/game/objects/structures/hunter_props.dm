@@ -88,6 +88,30 @@
 	plane = FLOOR_PLANE
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
 
+/obj/effect/hunter/ancient_temple/rubble/rubble
+	icon_state = "rubble0"
+
+/obj/effect/hunter/ancient_temple/rubble/rubble_1
+	icon_state = "rubble1"
+
+/obj/effect/hunter/ancient_temple/rubble/rubble_2
+	icon_state = "rubble2"
+
+/obj/effect/hunter/ancient_temple/rubble/rubble_3
+	icon_state = "rubble3"
+
+/obj/effect/hunter/ancient_temple/rubble/rubble_4
+	icon_state = "rubble4"
+
+/obj/effect/hunter/ancient_temple/rubble/rubble_5
+	icon_state = "rubble5"
+
+/obj/effect/hunter/ancient_temple/rubble/rubble_6
+	icon_state = "rubble6"
+
+/obj/effect/hunter/ancient_temple/rubble/rubble_7
+	icon_state = "rubble7"
+
 /obj/effect/hunter/ancient_temple/deco_border
 	icon_state = "deco_border1"
 	layer = TURF_LAYER
@@ -515,6 +539,9 @@
 	density = TRUE
 	bound_height = 64
 	bound_width = 64
+	explo_proof = TRUE
+	unacidable = TRUE
+	density = TRUE
 
 /obj/structure/prop/hunter/ancient_temple/giant_statue/base
 	icon = 'icons/obj/structures/props/hunter/ancientsatuebase.dmi'
@@ -531,11 +558,9 @@
 	icon_state = "statue_base_big_colorable"
 
 /obj/structure/prop/hunter/ancient_temple/giant_statue/base/small
-
 	icon_state = "statue_base_small"
 
 /obj/structure/prop/hunter/ancient_temple/giant_statue/base/small/colorable
-
 	icon_state = "statue_base_small_colorable"
 
 /obj/structure/prop/hunter/ancient_temple/small_statue
